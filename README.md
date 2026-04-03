@@ -11,11 +11,21 @@
 ## 🏗️ 分析與技術架構 (Analysis and Technical Architecture)
 
 * **資料探索與前處理 (EDA & Preprocessing):**
-  運用 `Pandas` 與 `NumPy` 進行缺失值填補、異常值檢測以及特徵分箱，確保數據品質。
+  運用 `Pandas` 、 `NumPy` 與 `SMOTE` 進行缺失值填補、異常值檢測以及特徵分箱，確保數據品質。
 * **特徵工程 (Feature Engineering):**
   處理類別變數並標準化連續變數，以提升演算法的收斂速度與預測穩定性。
 * **模型建立與評估 (Modeling & Evaluation):**
-  訓練多種分類模型（如羅吉斯迴歸、隨機森林等），並採用**交叉驗證 (Cross-Validation)** 來防止過度擬合。
+  訓練以下10種分類模型，並採用**交叉驗證 (Cross-Validation)** 來防止過度擬合。
+1. Gaussian Naive Bayes
+2. Logistic Regression
+3. KNN
+4. Decision Tree
+5. Decision Tree
+6. Random Forest
+7. AdaBoost
+8. Gradient Boost
+9. XGBoost
+10. Stacking
 
 ---
 
